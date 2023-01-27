@@ -6,8 +6,8 @@ package ch3;
  * */
 public class Exercise3_5 {
 	public static void main(String[] args) {
-		int num = 333;
+		int num = 777;
 		//System.out.println(/* (1) */);
-		System.out.println((num/100));
+		System.out.println(num - (num/100) + 1);
 	}
 }
