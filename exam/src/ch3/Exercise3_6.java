@@ -10,7 +10,13 @@ class Exercise3_6 {
 	public static void main(String[] args) {
 		int num = 24;
 		//System.out.println( /* (1) */ );
-		System.out.println((num%10) < 5);
+		System.out.println((num-(num%10)+10)-num);
 	}
+	/*
+	 * 1) 30 - 24 식을 만들어야 한다.
+	 * 2) 30 - num
+	 * 3) (24-4+10) - num
+	 * 4) (num - (num%10) + 10) - num
+	 * */
 }
 
