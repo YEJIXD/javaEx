@@ -1,14 +1,15 @@
 package ch3;
 
-/*[3-7] ¾Æ·¡´Â È­¾¾(Fahrenheit) ¸¦ ¼·¾¾(Celcius)·Î º¯È¯ÇÏ´Â ÄÚµåÀÌ´Ù.
- *  	º¯È¯°ø½ÄÀÌ . 'C = 5/9 ¡¿(F - 32)'¶ó°í ÇÒ ¶§, (1)¿¡ ¾Ë¸ÂÀº ÄÚµå¸¦ ³ÖÀ¸½Ã¿À.
- *   	´Ü º¯È¯ °á°ú°ªÀº ¼Ò¼öÁ¡ ¼ÂÂ°ÀÚ¸®¿¡¼­ ¹İ¿Ã¸²ÇØ¾ßÇÑ´Ù. (Math.round() ¸¦ »ç¿ëÇÏÁö ¾Ê°í Ã³¸®ÇÒ °Í .
- * */
-class Exercise3_7 {
+public class Excercise3_7 {
+	/* ì•„ë˜ëŠ” í™”ì”¨(Fahrenheit)ë¥¼ ì„­ì”¨(Celcius)ë¡œ ë³€í™˜í•˜ëŠ” ì½”ë“œì´ë‹¤.
+	 *  ë³€í™˜ê³µì‹ì´ 'C =5/9 Ã—(F - 32)'ë¼ê³  í•  ë•Œ (1)ì— ì•Œë§ì€ ì½”ë“œë¥¼ ë„£ìœ¼ì‹œì˜¤.
+	 *  ë‹¨, ë³€í™˜ ê²°ê³¼ê°’ì€ ì†Œìˆ˜ì  ì…‹ì§¸ìë¦¬ì—ì„œ ë°˜ì˜¬ë¦¼í•´ì•¼í•œë‹¤.
+	 *  (Math.round()ë¥¼ ì‚¬ìš©í•˜ì§€ ì•Šê³  ì²˜ë¦¬í•  ê²ƒ) */
+
 	public static void main(String[] args) {
 		int fahrenheit = 100;
 		//float celcius = ( /* (1) */ );
-		float celcius = 0f;
+		float celcius = 0.0f;
 		System.out.println("Fahrenheit:"+fahrenheit);
 		System.out.println("Celcius:"+celcius);
 	}

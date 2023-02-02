@@ -1,38 +1,30 @@
 package ch3;
 
-/* [3-8] ¾Æ·¡ ÄÚµåÀÇ ¹®Á¦Á¡À» ¼öÁ¤ÇØ¼­ ½ÇÇà°á°ú¿Í °°Àº °á°ú¸¦ ¾òµµ·Ï ÇÏ½Ã¿À.
-
-  [½ÇÇà°á°ú ] 
-	c=30
-	ch=C
-	f=1.5
-	l=27000000000
-	result=true
-*/
-class Exercise3_8 {
+/*ì•„ë˜ ì½”ë“œì˜ ë¬¸ì œì ì„ ìˆ˜ì •í•´ì„œ ì‹¤í–‰ê²°ê³¼ì™€ ê°™ì€ ê²°ê³¼ë¥¼ ì–»ë„ë¡ í•˜ì‹œì˜¤.*/
+public class Excercise3_8 {
 	public static void main(String[] args) {
 		byte a = 10;
 		byte b = 20;
 		//byte c = a + b;
-		int c = a + b;
-		
 		char ch = 'A';
 		//ch = ch + 2;
-		ch = (char) (ch + 2);
-		
-		//float f = 3 / 2;
-		float f = 3 / 2f;
+		float f = 3 / 2;
 		long l = 3000 * 3000 * 3000;
-		
 		float f2 = 0.1f;
 		double d = 0.1;
-		
-		boolean result = d==f2;
-		
-		System.out.println("c="+c);
-		System.out.println("ch="+ch);
-		System.out.println("f="+f);
-		System.out.println("l="+l);
-		System.out.println("result="+result);
+		boolean result = d == f2;
+		//System.out.println("c=" + c);
+		// System.out.println("ch=" + ch);
+		System.out.println("f=" + f);
+		System.out.println("l=" + l);
+		System.out.println("result=" + result);
 	}
 }
+
+/*
+* c=30
+ch=C
+f=1.5
+l=27000000000
+result=true
+* */

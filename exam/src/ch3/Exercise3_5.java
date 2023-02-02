@@ -1,13 +1,13 @@
 package ch3;
 
-/*
- * [3-5] ¾Æ·¡´Â º¯¼ö numÀÇ °ª Áß¿¡¼­ ÀÏÀÇ ÀÚ¸®¸¦ ·Î ¹Ù²Ù´Â ÄÚµåÀÌ´Ù.
- *  ¸¸ÀÏ º¯¼ö numÀÇ °ªÀÌ 333ÀÌ¶ó¸é 331ÀÌ µÇ°í 777ÀÌ¶ó¸é 771ÀÌ µÈ´Ù (1)¿¡ ¾Ë¸ÂÀº ÄÚµå¸¦ ³ÖÀ¸½Ã¿À.
- * */
-public class Exercise3_5 {
+public class Excercise3_5 {
+    /*ì•„ë˜ëŠ” ë³€ìˆ˜ numì˜ ê°’ ì¤‘ì—ì„œ ì¼ì˜ ìë¦¬ë¥¼ 1ë¡œ ë°”ê¾¸ëŠ” ì½”ë“œì´ë‹¤
+      ë§Œì¼ ë³€ìˆ˜ numì˜ê°’ì´ 333ì´ë¼ë©´ 331ì´ ë˜ê³ , 777ì´ë¼ë©´ 771ì´ ëœë‹¤ (1) ì— ì•Œë§ì€ ì½”ë“œë¥¼ ë„£ìœ¼ì‹œì˜¤.
+    */
+
 	public static void main(String[] args) {
-		int num = 777;
-		//System.out.println(/* (1) */);
-		System.out.println(num - (num/100) + 1);
+		int num = 333;
+		//System.out.println( /* (1) */ );
+		System.out.println();
 	}
 }
